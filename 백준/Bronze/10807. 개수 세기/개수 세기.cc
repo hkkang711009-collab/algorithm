@@ -3,9 +3,9 @@
 int main() {
     using namespace std;
  
-    int N;
-    int arr[100];
-    int v, count = 0;
+    int N; //받을 숫자
+    int arr[100]; //숫자 담을 배열
+    int v, count = 0; //찾을 숫자, 카운트
     
     cin >> N;
     

@@ -11,19 +11,19 @@ int main() {
     
     for(int i=0; i<N; i++) {
         
-        cin >> arr[i];
+        cin >> arr[i]; //배열에 숫자 대입
         
     }
     cin >> v;
  
     for (int i=0; i<N; i++) {
         
-        if (arr[i]==v) {
+        if (arr[i]==v) { //숫자 찾았다면 count ++
             
             count ++;
             
         }
         
     }
-    cout << count <<endl;
+    cout << count <<endl; //출력
 }
